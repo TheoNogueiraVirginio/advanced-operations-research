@@ -23,7 +23,6 @@
 *.dll
 *.so.*
 
-
 # Fortran module files
 *.mod
 *.smod
@@ -38,6 +37,7 @@
 *.exe
 *.out
 *.app
+main
 
 # Build directories
 build/
@@ -61,9 +61,21 @@ compile_commands.json
 # vcpkg
 vcpkg_installed/
 
-# debug information files
+# Debug information files
 *.dwo
 
-# test output & cache
+# Test output & cache
 Testing/
 .cache/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# IDE and Editor settings
+.vscode/
+.idea/
+*.suo
+*.user
